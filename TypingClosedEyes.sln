@@ -3,21 +3,25 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29613.14
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TypingClosedEyes.DataAccess", "TypingClosedEyes.DataAccess\TypingClosedEyes.DataAccess.csproj", "{4719B82B-5198-4216-A8FA-845360D5F21A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TypingClosedEyes.DataAccess", "TypingClosedEyes.DataAccess\TypingClosedEyes.DataAccess.csproj", "{4719B82B-5198-4216-A8FA-845360D5F21A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TypingClosedEyes.Entities", "TypingClosedEyes.Entities\TypingClosedEyes.Entities.csproj", "{837F4282-E32B-4E04-9F0C-11CD11D78DFB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TypingClosedEyes.Entities", "TypingClosedEyes.Entities\TypingClosedEyes.Entities.csproj", "{837F4282-E32B-4E04-9F0C-11CD11D78DFB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TypingClosedEyes.Media", "TypingClosedEyes.Media\TypingClosedEyes.Media.csproj", "{A77FDC04-32EC-4DA6-AF8F-6D4226B5D0F0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TypingClosedEyes.Media", "TypingClosedEyes.Media\TypingClosedEyes.Media.csproj", "{A77FDC04-32EC-4DA6-AF8F-6D4226B5D0F0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TypingClosedEyes.Service", "TypingClosedEyes.Service\TypingClosedEyes.Service.csproj", "{969041A9-A38F-446D-9473-B47156C9CBAB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TypingClosedEyes.Service", "TypingClosedEyes.Service\TypingClosedEyes.Service.csproj", "{969041A9-A38F-446D-9473-B47156C9CBAB}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "UnitTests", "UnitTests", "{1FB5A486-07D9-46DA-97E6-28EAF22B4784}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TypingClosedEyes.Service.Tests", "UnitTests\TypingClosedEyes.Service.Tests\TypingClosedEyes.Service.Tests.csproj", "{01A0CF1B-C635-4453-B6BB-30667DC11899}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TypingClosedEyes.Service.Tests", "UnitTests\TypingClosedEyes.Service.Tests\TypingClosedEyes.Service.Tests.csproj", "{01A0CF1B-C635-4453-B6BB-30667DC11899}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TypingClosedEyes.Media.Tests", "TypingClosedEyes.Media.Tests\TypingClosedEyes.Media.Tests.csproj", "{1DD0925D-B6DF-41BC-AA04-3F6A1FF3789D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TypingClosedEyes.Media.Tests", "TypingClosedEyes.Media.Tests\TypingClosedEyes.Media.Tests.csproj", "{1DD0925D-B6DF-41BC-AA04-3F6A1FF3789D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TypingClosedEyes.DataAccess.Tests", "TypingClosedEyes.DataAccess.Tests\TypingClosedEyes.DataAccess.Tests.csproj", "{849CC35D-4B16-45A1-980B-DC4A4C258A2B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TypingClosedEyes.DataAccess.Tests", "TypingClosedEyes.DataAccess.Tests\TypingClosedEyes.DataAccess.Tests.csproj", "{849CC35D-4B16-45A1-980B-DC4A4C258A2B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TypingClosedEyes.WinForm", "TypingClosedEyes.WinForm\TypingClosedEyes.WinForm.csproj", "{151344BA-8529-4587-AA2A-F45BB07A782B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TypingClosedEyes.Entities.Tests", "TypingClosedEyes.Entities.Tests\TypingClosedEyes.Entities.Tests.csproj", "{13AE3FE9-B71D-4FE1-8D7F-8F8783F62E94}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -53,6 +57,14 @@ Global
 		{849CC35D-4B16-45A1-980B-DC4A4C258A2B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{849CC35D-4B16-45A1-980B-DC4A4C258A2B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{849CC35D-4B16-45A1-980B-DC4A4C258A2B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{151344BA-8529-4587-AA2A-F45BB07A782B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{151344BA-8529-4587-AA2A-F45BB07A782B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{151344BA-8529-4587-AA2A-F45BB07A782B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{151344BA-8529-4587-AA2A-F45BB07A782B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{13AE3FE9-B71D-4FE1-8D7F-8F8783F62E94}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{13AE3FE9-B71D-4FE1-8D7F-8F8783F62E94}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{13AE3FE9-B71D-4FE1-8D7F-8F8783F62E94}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{13AE3FE9-B71D-4FE1-8D7F-8F8783F62E94}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -61,6 +73,7 @@ Global
 		{01A0CF1B-C635-4453-B6BB-30667DC11899} = {1FB5A486-07D9-46DA-97E6-28EAF22B4784}
 		{1DD0925D-B6DF-41BC-AA04-3F6A1FF3789D} = {1FB5A486-07D9-46DA-97E6-28EAF22B4784}
 		{849CC35D-4B16-45A1-980B-DC4A4C258A2B} = {1FB5A486-07D9-46DA-97E6-28EAF22B4784}
+		{13AE3FE9-B71D-4FE1-8D7F-8F8783F62E94} = {1FB5A486-07D9-46DA-97E6-28EAF22B4784}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {53592F97-9FFD-44F4-8E72-82B116131212}
