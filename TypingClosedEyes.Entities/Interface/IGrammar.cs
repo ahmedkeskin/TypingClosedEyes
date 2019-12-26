@@ -4,7 +4,7 @@ using System.Text;
 
 namespace TypingClosedEyes.Entities.Interface
 {
-    public interface IGrammar
+    public interface IGrammar : IEntity
     {
         string TypeName { get; set; }
     }

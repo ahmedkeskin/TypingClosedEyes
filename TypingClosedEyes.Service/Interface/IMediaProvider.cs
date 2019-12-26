@@ -5,7 +5,7 @@ using TypingClosedEyes.Entities.Interface;
 
 namespace TypingClosedEyes.Service.Interface
 {
-    public interface IMediaManager
+    public interface IMediaProvider
     {
         void PlayAudio(string filePath);
         void PlayDing();

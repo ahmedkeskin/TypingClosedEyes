@@ -4,7 +4,7 @@ using System.Text;
 
 namespace TypingClosedEyes.Entities.Interface
 {
-    public interface ICategory
+    public interface ICategory:IEntity
     {
         string CategoryName { get; set; }
     }

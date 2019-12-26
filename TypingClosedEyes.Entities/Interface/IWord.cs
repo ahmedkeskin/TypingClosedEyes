@@ -4,10 +4,10 @@ using System.Text;
 
 namespace TypingClosedEyes.Entities.Interface
 {
-    public interface IWord
+    public interface IWord : IEntity
     {
-        public int WordId { get; set; }
-        public string WordText { get; set; } 
-        public string FilePath { get; set; }
+        int WordId { get; set; }
+        string WordText { get; set; } 
+        string FilePath { get; set; }
     }
 }
