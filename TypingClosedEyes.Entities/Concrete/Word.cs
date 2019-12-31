@@ -1,13 +1,13 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
+using TypingClosedEyes.Entities.Abstract;
 using TypingClosedEyes.Entities.Interface;
 
 namespace TypingClosedEyes.Entities.Concrete
 {
-    public class Word : IWord
+    public class Word : WordBase
     {
-        public string WordText { get; set; }
-        public string EntityId { get; set; }
+
     }
 }

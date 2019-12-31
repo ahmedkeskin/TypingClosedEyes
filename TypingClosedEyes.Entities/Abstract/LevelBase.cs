@@ -8,12 +8,8 @@ namespace TypingClosedEyes.Entities.Abstract
 {
     public abstract class LevelBase : ILevel
     {
-        public string LevelCode { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
-        public string EntityId { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
+        public int EntityId { get; set; }
+        public string LevelCode { get; set; }
 
-        public int CompareTo([AllowNull] ILevel other)
-        {
-            throw new NotImplementedException();
-        }
     }
 }

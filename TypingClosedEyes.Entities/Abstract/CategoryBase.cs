@@ -7,7 +7,8 @@ namespace TypingClosedEyes.Entities.Abstract
 {
     public abstract class CategoryBase : ICategory
     {
-        public string CategoryName { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
-        public string EntityId { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
+        public int EntityId { get; set; }
+        public string CategoryName { get; set; }
+        
     }
 }

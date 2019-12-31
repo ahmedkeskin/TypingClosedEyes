@@ -4,15 +4,15 @@ using System;
 using System.Collections.Generic;
 using System.Text;
 using TypingClosedEyes.Entities.Abstract;
-using TypingClosedEyes.Entities.Concrete;
 
 namespace TypingClosedEyes.DataAccess.EntityFramework.Mapping
 {
-    public class WordMap : IEntityTypeConfiguration<Word>
+    public class CategoryBaseMap : IEntityTypeConfiguration<CategoryBase>
     {
-        public void Configure(EntityTypeBuilder<Word> builder)
+        public void Configure(EntityTypeBuilder<CategoryBase> builder)
         {
-            builder.HasBaseType<WordBase>();
+            builder.HasKey(p => p.EntityId);
+            builder.Property(p => p.EntityId).ValueGeneratedOnAdd();
         }
     }
 }

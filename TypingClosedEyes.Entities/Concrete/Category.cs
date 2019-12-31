@@ -6,10 +6,7 @@ using TypingClosedEyes.Entities.Interface;
 
 namespace TypingClosedEyes.Entities.Concrete
 {
-    public class A1Level : LevelBase
+    public class Category : CategoryBase
     {
-        public A1Level()
-        {
-        }
     }
 }

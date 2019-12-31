@@ -8,11 +8,11 @@ using TypingClosedEyes.Entities.Concrete;
 
 namespace TypingClosedEyes.DataAccess.EntityFramework.Mapping
 {
-    public class WordMap : IEntityTypeConfiguration<Word>
+    public class GrammarMap : IEntityTypeConfiguration<Grammar>
     {
-        public void Configure(EntityTypeBuilder<Word> builder)
+        public void Configure(EntityTypeBuilder<Grammar> builder)
         {
-            builder.HasBaseType<WordBase>();
+            builder.HasBaseType<GrammarBase>();
         }
     }
 }

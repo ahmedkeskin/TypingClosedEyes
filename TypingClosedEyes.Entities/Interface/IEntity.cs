@@ -7,7 +7,6 @@ namespace TypingClosedEyes.Entities.Interface
 {
     public interface IEntity
     {
-        
-        string EntityId { get; set; }
+      public int EntityId { get; set; }
     }
 }
